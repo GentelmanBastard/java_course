@@ -1,6 +1,6 @@
 public class Variables {
     public static void main(String[] args){
-        String stringValue = "Mateusz";
+        String stringValue = "Mat";
         int intValue = 5;
         byte byteValue = 10;
         short shortValue = 20;
