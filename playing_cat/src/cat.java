@@ -8,9 +8,6 @@ public class cat {
     private static boolean isCatPlaying(boolean summer, int temperature) {
         if (summer && temperature < 46 && temperature >= 25) {
             return true;
-        } else if (!summer && temperature < 36 && temperature >= 25) {
-            return true;
-        }
-        return false;
+        } else return !summer && temperature < 36 && temperature >= 25;
     }
 }
